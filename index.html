@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yunbi LOG</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+        body{
+            text-align: center;
+            color: #FFF;
+            width: 1500px;
+        }
+        div#wapper{
+            width: 100%;
+            text-align: left;
+            min-height: 300px;
+            margin: 0 auto;
+        }
+        header, footer, nav, aside, section{
+            margin: 5px;
+            padding: 10px;
+        }
+        header{
+            height: 90px;
+            text-align: center;
+        }
+        aside, nav, section{
+            float: left;
+            height: 550px;
+        }
+        aside{
+            text-align: center;
+            border-radius: 5px;
+            padding: 0.6em 1em;
+            background: #F1F1F3;
+            width: 235px;
+        }
+        nav{
+            border-radius: 5px;
+            padding: 0.6em 1em;
+            background: #F1F1F3;
+            width: 150px;
+        }
+        nav li::marker{
+            color: #404040;
+        }
+        section{
+            border: 3px solid #999;
+            border-radius: 5px;
+            padding: 0.6em 1em;
+            width: 980px;
+        }
+        footer{
+            height: 50px;
+            clear: both;
+        }
+        article{
+            text-align: center;
+            width: 95%;
+            margin: 20px;
+        }
+        #btn_group button{
+            border: 2px dashed #999;
+            background-color: rgba(0 , 0 , 0, 0);
+            color: #999;
+            padding: 5px;
+            text-align: center;
+        }
+        #btn_group button:hover{
+            color: white;
+            background-color: #999;
+        }
+        a { text-decoration:none } 
+        </style>
+    </head>
+    <body>
+        <div id="wapper">
+            <!--헤더시작-->
+            <header>
+                <b><a href="index.html"><span style="border-bottom: 10px solid #e7e7e7; padding: 0 0 0 0.2em;"><font size="11"; color="black"; face="한컴바탕체">Yunbi LOG</font></span></a></b>
+            </header>
+
+            <!--프로필-->
+            <aside>
+                <b><font color="#404040"; size="5.5">PROFILE</font></b>
+                <p>
+                    <img src="images/selca.jpg" alt="My Image" width="200">
+                </p>
+                <p><font color="black"; size="4.5">송윤비</font></p>
+                <p><font color="black">2000.04.26</font></p>
+                <p><font color="black">010-9336-5850</font></p>
+                <p><font color="black">군산대학교 컴퓨터정보공학전공</font></p>
+                <p><font color="black">3학년 재학중</font></p>
+                <p><a href="mailto:syb5853@naver.com"><font color="black">syb5853@naver.com</font></a></p>
+            </aside>
+
+            <!--콘텐츠부분-->
+            <section>
+                <p></p>
+                <article>
+                    <a></a>
+                    <a href="java도서관.html"><img src="images/java도서관.jpg" alt="My Image" width="250"></a>
+                    <a href="java대학db.html"><img src="images/java대학db.jpg" alt="My Image" width="250"></a>
+                    <a href="java성적처리.html"><img src="images/java성적처리.jpg" alt="My Image" width="250"></a>
+                </article>
+                <article>
+                    <a></a>
+                    <a href="인공지능트레이너.html"><img src="images/인공지능트레이너.jpg" alt="My Image" width="250"></a>
+                    <a href="포트폴리오.html"><img src="images/포트폴리오제작.jpg" alt="My Image" width="250"></a>
+                    <a href="html연습하기.html"><img src="images/html연습.jpg" alt="My Image" width="250"></a>
+                </article>
+            </section>
+
+            <!--카테고리-->
+            <nav>
+                <b><font color="#404040"; size="5.5";>CATEGORY</font></b>
+                <ul>
+                    <li><a href="java.html"><font color=#404040>Java</font></a></li>
+                    <p></p>
+                    <li><a href="web.html"><font color=#404040>Web</font></a></li>
+                    <p></p>
+                    <li><a href="machine learning.html"><font color=#404040>Machine Learning</font></a></li>
+                </ul>
+            </nav>
+
+            <!--바로가기-->
+            <footer>
+                <div id="btn_group">
+                    <button style="font-size: 1.2em;"; onclick="window.open('https://github.com/fourtwosix') ">GIT</button>
+                    <button style="font-size: 1.2em;"; onclick="window.open('https://blog.naver.com/syb5853') ">BLOG</button>
+                    <button style="font-size: 1.2em;"; onclick="window.open('https://www.instagram.com/yunbi_yomi/') ">INSTAGRAM</button>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

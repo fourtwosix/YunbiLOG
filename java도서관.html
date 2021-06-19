@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JAVA 도서관 프로그램</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+        body{
+            text-align: center;
+            color: #FFF;
+            width: 1500px;
+        }
+        div#wapper{
+            width: 100%;
+            text-align: left;
+            min-height: 300px;
+            margin: 0 auto;
+        }
+        header, footer, nav, section{
+            margin: 5px;
+            padding: 10px;
+        }
+        header{
+            height: 90px;
+            text-align: center;
+        }
+        nav, section{
+            float: left;
+            height: 550px;
+        }
+        nav{
+            border-radius: 5px;
+            padding: 0.6em 1em;
+            background: #F1F1F3;
+            width: 150px;
+        }
+        nav li::marker{
+            color: #404040;
+        }
+        section{
+            height: auto;
+            border: 3px solid #999;
+            border-radius: 5px;
+            padding: 0.6em 1em;
+            width: 1255px;
+        }
+        footer{
+            height: 50px;
+            clear: both;
+        }
+        article{
+            text-align: center;
+            width: 90%;
+            margin: 20px;
+        }
+        #btn_group button{
+            border: 2px dashed #999;
+            background-color: rgba(0 , 0 , 0, 0);
+            color: #999;
+            padding: 5px;
+            text-align: center;
+        }
+        #btn_group button:hover{
+            color: white;
+            background-color: #999;
+        }
+        a { text-decoration:none } 
+        </style>
+    </head>
+    <body>
+        <div id="wapper">
+            <!--헤더시작-->
+            <header>
+                <b><a href="index.html"><span style="border-bottom: 10px solid #e7e7e7; padding: 0 0 0 0.2em;"><font size="11"; color="black"; face="한컴바탕체">Yunbi LOG</font></span></a></b>
+            </header>
+
+            <!--콘텐츠부분-->
+            <section>
+                <p>section</p>
+                <article>
+                    <b><font size="20"; color="black">JAVA 도서관 프로그램</font></b>
+                </article>
+                <article>
+                    <p><img src="images/도서관/1.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/2.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/3.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/4.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/5.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/6.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/7.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/8.JPG" alt="My Image" width="600"></p>
+                    <p><img src="images/도서관/9.JPG" alt="My Image" width="600"></p>
+                </article>
+            </section>
+
+            <!--카테고리-->
+            <nav>
+                <b><font color="#404040"; size="5.5";>CATEGORY</font></b>
+                <ul>
+                    <li><a href="java.html"><font color=#404040>Java</font></a></li>
+                    <p></p>
+                    <li><a href="web.html"><font color=#404040>Web</font></a></li>
+                    <p></p>
+                    <li><a href="machine learning.html"><font color=#404040>Machine Learning</font></a></li>
+                </ul>
+            </nav>
+
+            <!--바로가기-->
+            <footer>
+                <div id="btn_group">
+                    <button style="font-size: 1.2em;"; onclick="window.open('https://github.com/fourtwosix') ">GIT</button>
+                    <button style="font-size: 1.2em;"; onclick="window.open('https://blog.naver.com/syb5853') ">BLOG</button>
+                    <button style="font-size: 1.2em;"; onclick="window.open('https://www.instagram.com/yunbi_yomi/') ">INSTAGRAM</button>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
